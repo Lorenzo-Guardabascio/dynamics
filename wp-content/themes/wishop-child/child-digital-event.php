@@ -52,7 +52,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							comments_template();
 						endif;
 						?>
-
+ 
 					<?php endwhile; // end of the loop. ?>
 					<?php $wcatTerms = get_terms('digital_categories', array('hide_empty' => 0)); 
 						foreach($wcatTerms as $wcatTerm) : 

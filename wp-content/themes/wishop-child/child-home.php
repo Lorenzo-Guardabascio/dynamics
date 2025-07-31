@@ -23,7 +23,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
             echo do_shortcode(get_post_meta( get_the_ID(), '_understrap_show_in_homepage_slider_shortcode', true ));
           ?>
 
-
+ 
 </div>
 <div class="home-page wrapper page-standard" id="page-wrapper">
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">

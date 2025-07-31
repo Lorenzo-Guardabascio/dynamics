@@ -18,7 +18,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 <?php
 	// understrap_print_post_main(); 
 	?>
-
+ 
 <header class="entry-header case">
 	<div class="case-bg" style="background-image:url(<?php echo get_option('wisho_op_theme_header_background_sub_page') ?>)">
 		<div <?php post_class( esc_attr( $container )); ?> id="content" tabindex="-1">

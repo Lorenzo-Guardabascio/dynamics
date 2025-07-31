@@ -1,0 +1,110 @@
+.page-template-child-macro-aree {
+    .wp-block-media-text__content {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .archive-links {
+            margin-top: auto;
+            text-transform: uppercase;
+        }
+    }
+
+    .new-article-last-pub {
+        &.casi-clinici {
+            article {
+                >a {
+                    border-bottom: 1px solid $line;
+                }
+            }
+        }
+    }
+
+    .approfondimenti.new-article-last-pub {
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        .col-12:nth-child(1) {
+            flex: 1;
+            border-top: 1px solid $line;
+            padding-top: 25px;
+
+            footer {
+                margin-bottom: 0;
+                padding-bottom: 25px;
+                margin-top: auto;
+                padding-top: 15px;
+            }
+        }
+
+        .col-12:nth-child(2) {
+            flex: 0;
+        }
+    }
+
+    .custom-col-40 .slidekit.center {
+        >.row {
+            .col-md-3, .col-lg-3 {
+                flex: 1 !important;
+                padding-bottom: 15px;
+
+                footer {
+                    padding: 0;
+                    margin: 0;
+                    margin-top: auto;
+                }
+            }
+        }
+
+    }
+}
+
+
+.page-template-child-macro-aree {
+    .new-article-last-pub {
+        .last-sect.page-title {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    .wp-block-media-text__content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+    .container-new-layout {
+        //padding-bottom: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+        .new-section-layout.approfondimenti-slidekit.mt-3 {
+            margin-bottom: 60px;
+            margin-top: 60px !important;
+
+            .last-section-section-title {
+                display: none;
+            }
+        }
+
+    }
+
+    .wrapper.page-standard {
+        .new-section-layout .new-article-last-pub .last-content footer {
+            //border-bottom: solid 1px $line;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+.page-template-child-macro-aree {
+    .new-section-layout.approfondimenti-slidekit .custom-col-60 {
+        .col-md-3, .col-lg-3 {
+            margin-top: 0;
+        }
+    }
+}

@@ -1,0 +1,181 @@
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: $red;
+  font-weight: bold;
+
+  &:hover {
+    color: $red;
+    font-weight: bold;
+  }
+}
+
+.collapse.navbar-collapse.nav-left-bar {
+  @include media-breakpoint-up(md) {
+    padding: 0;
+
+    .login_redirect {
+      margin: 0;
+      margin-left: 5px;
+    }
+  }
+}
+
+.navbar.navbar-dark {
+  .container {
+    //border-top: solid 1px #333;
+    padding: 0;
+
+    .navbar-collapse {
+      padding: 0 5px;
+    }
+  }
+
+  //background-color: $blue;
+
+  .nav-link {
+    @include testo3;
+    //text-transform: uppercase;
+    color: $blue;
+    font-weight: bold;
+
+    &:hover {
+      color: $blue;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    @include media-breakpoint-up(md) {
+      margin-right: 25px;
+    }
+
+    &:first-child {
+      @include media-breakpoint-up(md) {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .widget {
+    p {
+      @include testo3;
+      color: $white;
+      margin: auto;
+    }
+  }
+
+  margin-bottom: 0;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $blue;
+
+  &:focus {
+    color: $blue;
+  }
+}
+
+.login_redirect {
+  white-space: nowrap;
+  @include testo3;
+  color: $black;
+}
+.navbar-form-search-button{
+  display: inline-block;
+}
+.navbar-form-search {
+  position: relative;
+
+  .form-control {
+    //width: 250px;
+  }
+
+  .btn {
+    @include testo3;
+    color: $black;
+    border: 0;
+    background: transparent;
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: $black;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+}
+
+
+
+.form-anchor {
+  position: relative;
+
+  .search-form-container {
+
+    text-align: right;
+    height: 80px;
+    overflow: hidden;
+    color: #fff;
+    //right: 100%;
+    top: 0;
+    z-index: 9;
+    transition: all .3s ease-in-out;
+
+    &.hdn {
+      height: 0;
+    }
+
+  }
+
+  .form-container {
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $red;
+    color: $white;
+
+    .btn {
+      color: $white;
+    }
+
+    input,
+    .btn {
+      @include testo3;
+    }
+
+    .search-section {
+      flex-direction: row;
+      flex-wrap: nowrap;
+
+      .src-1 {
+        flex: 10;
+      }
+
+      .src-2 {
+        flex: 0;
+
+        .btn {
+          padding-left: 20px;
+          padding-right: 20px;
+          border: 1px solid $white;
+        }
+      }
+
+      .src-3 {
+        flex: 0;
+      }
+
+      div {
+        margin: 10px;
+        margin-top: 5px;
+        white-space: nowrap;
+      }
+    }
+  }
+}

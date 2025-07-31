@@ -1,0 +1,89 @@
+# Translation of Plugins - Headers Security Advanced &amp; HSTS WP - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Headers Security Advanced &amp; HSTS WP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-08 20:21:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Headers Security Advanced &amp; HSTS WP - Stable (latest release)\n"
+
+#. Author of the plugin
+#: headers-security-advanced-hsts-wp.php
+msgid "🐙 Andrea Ferro"
+msgstr "🐙 Andrea Ferro"
+
+#: headers-security-advanced-hsts-wp.php:588
+msgid "Congratulations, you are safe!"
+msgstr "Congratulazioni, sei al sicuro!"
+
+#: headers-security-advanced-hsts-wp.php:616
+msgid "Security is a right, not a privilege. Plugin version %s."
+msgstr "La sicurezza è un diritto, non un privilegio. Versione plugin %s."
+
+#: headers-security-advanced-hsts-wp.php:117
+#: headers-security-advanced-hsts-wp.php:608
+msgid "Donate via PayPal"
+msgstr "Dona tramite PayPal"
+
+#: headers-security-advanced-hsts-wp.php:140
+msgid "Strict Transport Security (HSTS)"
+msgstr "Strict Transport Security (HSTS)"
+
+#: headers-security-advanced-hsts-wp.php:116
+#: headers-security-advanced-hsts-wp.php:605
+msgid "Buy me a coffee"
+msgstr "Offrimi un caffè"
+
+#: headers-security-advanced-hsts-wp.php:179
+msgid "Include Subdomains: "
+msgstr "Includi i sottodomini: "
+
+#: headers-security-advanced-hsts-wp.php:209
+msgid "Preload: "
+msgstr "Precaricamento: "
+
+#: headers-security-advanced-hsts-wp.php:119
+msgid "I create projects available to everyone for free and I like to create simple but functional projects."
+msgstr "Creo progetti disponibili gratuitamente per tutti e mi piace creare progetti semplici ma funzionali."
+
+#: headers-security-advanced-hsts-wp.php:138
+msgid "Quick selection:"
+msgstr "Selezione veloce:"
+
+#: headers-security-advanced-hsts-wp.php:131
+msgid "%1$sHelp me decide what the next features of this plugin will be!%2$s Take part in a nerdy survey!"
+msgstr "%1$sAiutami a decidere quali saranno le prossime funzionalità di questo plugin!%2$s Partecipa a questo sondaggio per nerd!"
+
+#: headers-security-advanced-hsts-wp.php:151
+msgid "Max-Age: "
+msgstr "Max-Age: "
+
+#: headers-security-advanced-hsts-wp.php:89
+msgid "%1$sYour website is finally safe! 🚀🚀%2$s Implement enhanced security headers, HSTS preload for optimum website protection."
+msgstr "%1$sIl tuo sito è finalmente sicuro! 🚀🚀%2$s Implementa security header e precaricamento HSTS per una protezione ottimale del tuo sito."
+
+#. Author URI of the plugin
+#: headers-security-advanced-hsts-wp.php
+msgid "https://www.linkedin.com/in/andrea-ferro-55046186/"
+msgstr "https://www.linkedin.com/in/andrea-ferro-55046186/"
+
+#. Plugin URI of the plugin
+#: headers-security-advanced-hsts-wp.php
+msgid "https://www.tentacleplugins.com/"
+msgstr "https://www.tentacleplugins.com/"
+
+#. Plugin Name of the plugin
+#: headers-security-advanced-hsts-wp.php
+#: headers-security-advanced-hsts-wp.php:68
+#: headers-security-advanced-hsts-wp.php:69
+#: headers-security-advanced-hsts-wp.php:579
+msgid "Headers Security Advanced & HSTS WP"
+msgstr "Headers Security Advanced & HSTS WP"
+
+#: headers-security-advanced-hsts-wp.php:85
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina."

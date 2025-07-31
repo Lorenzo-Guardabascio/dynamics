@@ -1,0 +1,127 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
+
+
+//
+// Color system
+//
+$blue-link:#007bff;
+$blue-link-ative:#9BC8E3;
+
+$white: #fff;
+$gray-text:#5E5E5E;
+$gray-img-border:#CBCBCB;
+$bray-bg:#DEDEDE;
+$gray-border:#B5B5B5;
+$red:#961747;
+$button-red:#c00000;
+$black:#000;
+$gray-bg: #F5F5F5;
+$azure:#57A3D1;
+$azure-case:#B4C7E7;
+
+
+
+//font varible
+$font-st-regular: normal;
+$font-st-italic: italic;
+
+$font-wt-normal:normal;
+$font-wt-bold:bold;
+$font-wt-light:300;
+$font-wt-black:900;
+
+$font-sz-low:1rem;
+$font-sz-md:1.4rem;
+$font-sz-title:4.5rem;
+$font-sz-sub-tile:2.2rem;
+$font-sz-text:1.5rem;
+$font-sz-title-section:2rem;
+$font-sz-title-areas:1.8rem;
+$font-sz-title-areas-2:1.6rem;
+$font-sz-news:1.2rem;
+$font-sz-tag-title:1.6rem;
+$font-sz-sponsor:1.3rem;
+//$font-sz-intern-header:3rem;
+$font-sz-intern-header:2.7rem;
+
+$titolo1-f : 23px;
+$titolo1-h : 26px;
+$titolo2-f : 17px;
+$titolo2-h : 22px;
+$titolo3-f : 31px;
+$testo1-f : 12px;
+$testo1-h : 18px;
+$testo4-f : 10px;
+$testo4-h : 15px;
+$testo3-f : 14px;
+$testo3-h : 20px;
+$bottone1-f : 14px;
+$bottone2-f : 12px;
+
+$red_button:#971848;
+$green_button:#70AD47;
+$red:#961747;
+$blue: #404587;
+$deep_blue: #0f0e14;
+$blue_title: #020540;
+$gray: #808183;
+$line: #b6b6b6;
+$gray_brad: #f2f2f2;
+$blue_event: #a1a5e0;
+
+@mixin titolo1 {
+    font-size: $titolo1-f;
+    line-height: $titolo1-h;
+}
+
+@mixin titolo2 {
+    font-size: $titolo2-f;
+    line-height: $titolo2-h;
+}
+
+@mixin titolo3 {
+    font-size: $titolo3-f;
+}
+
+@mixin testo1 {
+    font-size: $testo1-f;
+    line-height: $testo1-h;
+}
+
+@mixin testo3 {
+    font-size: $testo3-f;
+    line-height: $testo3-h;
+}
+
+@mixin testo4 {
+    font-size: $testo4-f;
+    line-height: $testo4-h;
+}
+
+@mixin bottone1 {
+    font-size: $bottone1-f ;
+}
+@mixin bottone2 {
+    font-size: $bottone2-f ;
+}
+.titolo1  { font-size: $titolo1-f;}
+.titolo2  { font-size: $titolo2-f;line-height: $titolo2-h;}
+.titolo3  {font-size: $titolo3-f;}
+.testo1   {font-size: $testo1-f;line-height: $testo1-h;}
+.testo3   {font-size: $testo3-f;line-height: $testo3-h;}
+.testo4   {font-size: $testo4-f;line-height: $testo4-h;}
+.bottone1 {font-size: $bottone1-f ;}
+.bottone2 {font-size: $bottone2-f ;}
+
+/*
+Brwack point
+sm da: 0        a: 575.98px
+md da: 576px    a: 767.98px)
+lg da: 768px    a: 991.98px)
+xl da: 992px    a: 1199.98px)
+*/

@@ -1,0 +1,111 @@
+.event_booking_like,
+.bbp-reply-content .event_booking_like,
+.bbp-reply-content a.event_booking_like{
+   /* background: #002E62 !important;*/
+    border: none !important;
+    display: inline-block ;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.event_booking_lik,
+.bbp-reply-content .event_booking_lik,
+.bbp-reply-content a.event_booking_lik {
+   /* background: #002E62 !important;*/
+    border: none !important;
+    display: inline-block ;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.event_booking_lik{
+    padding-left:0px;
+}
+
+.event_booking_like .fa,
+.event_booking_lik .fa {
+    font-size: inherit;
+    margin-right: 3px;
+}
+
+.event_booking_lik,
+.event_booking_like,
+.bbp-reply-content .event_booking_like,
+.bbp-reply-content .event_booking_lik,
+.bbp-reply-content a.event_booking_like,
+.bbp-reply-content a.event_booking_lik,
+.event_booking_like .fa,
+.event_booking_lik .fa {
+    color: #952464;
+    font-weight: bold;
+}
+
+.event_booking_like:hover,
+.event_booking_lik:hover,
+.bbp-reply-content .event_booking_like:hover,
+.bbp-reply-content .event_booking_lik:hover,
+.bbp-reply-content a.event_booking_lik:hover,
+.bbp-reply-content a.event_booking_like:hover {
+    /*background: #d11142 !important;*/
+}
+
+.event_booking_like,
+.event_booking_lik,
+.bbp-reply-content .event_booking_like,
+.bbp-reply-content a.event_booking_like {
+    /*background: #002E62 !important;*/
+    color: #952464;
+}   
+
+
+.event_booking_lik,
+.bbp-reply-content .event_booking_lik,
+.bbp-reply-content a.event_booking_lik {
+    /*background: #002E62 !important;*/
+    color: #70AD47;
+    position: relative;
+}   
+
+.event_booking_lik:before{
+    /*background: #002E62 !important;*/
+    background-color: #333;
+    position: absolute;
+    display: block;
+    height: 60%;
+    right:0;
+    width: 1px;
+    /*content: '';*/
+}   
+
+.event_booking_like:hover,
+.bbp-reply-content .event_booking_like:hover,
+.bbp-reply-content a.event_booking_like:hover {
+    /*background: #D11142 !important;*/
+    color: #952464;
+}
+
+.event_booking_lik:hover,
+.bbp-reply-content .event_booking_lik:hover,
+.bbp-reply-content a.event_booking_lik:hover {
+    /*background: #D11142 !important;*/
+    color: #70AD47;
+}
+
+.event_booking_like.disabled,
+.bbp-reply-content .event_booking_like.disabled,
+.bbp-reply-content a.event_booking_like.disabled {
+    /*background: #999999 !important;*/
+    color: #952464;
+}
+
+.event_booking_lik.disabled,
+.bbp-reply-content .event_booking_lik.disabled,
+.bbp-reply-content a.event_booking_lik.disabled {
+    /*background: #999999 !important;*/
+    color: #952464;
+}
+
+.event_booking_lik, .event_booking_like.enabled{
+    padding-left:0px ;
+}

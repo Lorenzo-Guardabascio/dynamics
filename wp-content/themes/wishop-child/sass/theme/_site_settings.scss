@@ -1,0 +1,22 @@
+// Font size normalize
+$font-size-global-sm: 8px;
+$font-size-global-md: 9px;
+$font-size-global-lg: 10px;
+$font-size-global-xxl: 11px;
+html {
+  height: 100%;
+  font-size: $font-size-global-sm;
+  scroll-behavior: smooth;
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-global-md;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: $font-size-global-lg;
+  }
+
+  @media(min-width: 1900px) {
+    font-size: $font-size-global-xxl;
+  }
+}

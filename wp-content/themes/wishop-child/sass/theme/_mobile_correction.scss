@@ -1,0 +1,214 @@
+//class only mobile
+.navbar-dark .navbar-toggler,
+.navbar-toggler {
+    &:focus {
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("../fonts/burger.svg");
+        height: 20px;
+        width: 20px;
+    }
+}
+
+
+@include media-breakpoint-down(lg) {
+    .mb-40 {
+        margin-bottom: 40px;
+    }
+
+    .page-template-child-macro-aree {
+        .new-section-layout .new-article-last-pub article {
+            padding-bottom: 30px;
+        }
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .single_loop_post::before {
+        content: '' !important;
+        display: none !important;
+    }
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
+    .button-container {
+        margin-left: auto;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .container.header {
+        .last-section-section-title {
+            display: none;
+        }
+    }
+
+    .page-template-child-macro-aree {
+        .wrapper.page-standard {
+            padding-bottom: 0;
+        }
+
+        .wp-block-media-text {
+            grid-template-columns: auto !important;
+        }
+
+        figure.wp-block-media-text__media {
+            display: none;
+        }
+
+        .wp-block-media-text__content {
+            padding: 0;
+        }
+    }
+
+    .page-template-archive-event_booking_prog,
+    .page-template-archive-event_booking_rep {
+        .wrapper {
+            padding-top: 0;
+
+            .aside-section {
+                .col-md.content-area {
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+
+    .page-template-child-macro-aree {
+        .new-section-layout .new-article-last-pub article {
+            padding-bottom: 60px;
+        }
+    }
+}
+
+.img-area-mobile {
+    width: 100%;
+}
+
+.img-area-mobile {
+    display: none;
+}
+
+.page-template-new-home-2022 {
+    .new-section-layout.aree-tematiche.home {
+        .login-section {
+            @include media-breakpoint-down(lg) {
+                display: none;
+            }
+        }
+
+        .col.custom-col-20.page {
+            @include media-breakpoint-down(lg) {
+                max-width: 25%;
+                flex: 0 0 25%;
+            }
+
+            @media (max-width:567.98px) {
+                max-width: 100%;
+                flex: 0 0 100%;
+
+                a {
+                    .wp-post-image {
+                        display: none;
+                    }
+
+                    .img-area-mobile {
+                        display: block;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .custom-col-40 {
+        .col-12.atlante-img-section {
+            @include media-breakpoint-down(md) {
+                display: none;
+            }
+        }
+    }
+
+    .new-section-layout.highlights article a .last-content {
+        @include media-breakpoint-down(sm) {
+            padding: 0;
+
+            .upper-entry-title {
+                display: none;
+            }
+
+            .entry-title {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.page-template-archive-event_booking_prog,
+.page-template-archive-event_booking_rep {
+    .row.event-booking-loop .col-12 {
+        @include media-breakpoint-down(sm) {
+            flex-direction: column;
+
+            .tab-image-event-booking {
+                min-height: 120px;
+            }
+
+            .entry-content {
+                .entry-title {
+                    margin-bottom: 10px;
+                }
+
+                &.entry-content-event-booking {
+                    padding-left: 0;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+.page-template-child-macro-aree .new-section-layout.approfondimenti-slidekit .custom-col-60 .archive-links {
+    margin-bottom: 20px
+}
+
+.page-template-page-board,
+.page-template-page-ondemand {
+    .align-content-stretch {
+        @include media-breakpoint-down(md) {
+            .uagb-container-inner-blocks-wrap {
+                row-gap: 0 !important;
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            .wp-block-media-text__media {
+                img {
+                    width: auto;
+                    margin-bottom: 10px;
+                }
+
+                width: auto;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+
+.new-section-layout.approfondimenti-slidekit .row .custom-col-40 .col-lg-3:nth-child(2),
+.new-section-layout.approfondimenti-slidekit .row .custom-col-40 .col-md-3:nth-child(2) {
+    @include media-breakpoint-down(md){
+        border-top: 0;
+    }
+}
+
+.new-section-layout.event_booking .custom-col-80 .w-100 {
+    @include media-breakpoint-down(sm){
+        border: 0;
+    }
+}
